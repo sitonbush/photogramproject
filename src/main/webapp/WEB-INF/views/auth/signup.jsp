@@ -20,7 +20,7 @@
                 <article class="login__form__container">
                   
                    <!--회원가입 폼-->
-                    <div class="login__form">
+                    <div class="login__form" action="/auth/signup" method="post">
                         <!--로고-->
                         <h1><img src="/images/logo.jpg" alt=""></h1>
                          <!--로고end-->
