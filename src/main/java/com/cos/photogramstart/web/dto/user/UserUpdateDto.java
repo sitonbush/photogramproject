@@ -17,7 +17,7 @@ public class UserUpdateDto {
     public User toEntity(){
         return  User.builder()
                 .name(name)
-                .password(password)
+                .password(password) //패스워드를 기재안했으면, 문제->validation 체크
                 .website(website)
                 .bio(bio)
                 .phone(phone)
