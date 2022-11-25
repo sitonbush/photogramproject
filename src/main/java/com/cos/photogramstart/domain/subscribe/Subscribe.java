@@ -13,13 +13,24 @@ import java.time.LocalDateTime;
 @AllArgsConstructor //모든 생성자를 자동으로 만들어주는 어노테이션
 @NoArgsConstructor //빈 생성자를 자동으로 만들어주는 어노테이션
 @Data   //Getter,Setter,toString을 만들어주는 어노테이션
-@Entity //DB에 테이블을 생성해주는 어노테이션
-
+@Table(
+        uniqueConstraints =  {
+                @UniqueConstraint(
+                        name="subscribe_uk",
+                        columnNames = {
+                                "fromUserId",
+                                "toUserId"
+                        }
+                )
+        }
 )
 public class Subscribe {
     @GeneratedValue(strategy = GenerationType.IDENTITY) //데이터가 들어갈 때마다 번호를 자동으로 매겨준다.
     @Id // Primary Key를 지정해주는 어노테이션
     private Integer id;
+
+    @Column(unique = true, length = 20, nullable = false)
+    private String username;
 
     @JoinColumn(name="fromUserId")
     @ManyToOne
@@ -28,7 +39,6 @@ public class Subscribe {
     @JoinColumn(name="toUserId")
     @ManyToOne
     private User toUser;
-
 
     private LocalDateTime createDate;
 
