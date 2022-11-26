@@ -14,9 +14,6 @@ I made a simple Instagram-Wannabe Program.
  - Comment
 
 
-<br>
-</br>
-
 ##### Skills Used
 
  - JAVA  
@@ -25,9 +22,7 @@ I made a simple Instagram-Wannabe Program.
  - JPA  
  - HTML  
  
- 
-<br>
-</br>
+   
  
 ##### Related Lecture
  
