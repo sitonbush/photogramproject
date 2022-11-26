@@ -12,13 +12,18 @@ This Instagram-Wannabe program includes functions below:
 
 
 <br>
+
+
 ##### Skills Used
+
  - JAVA
  - Spring Boot
  - Spring Security
  - JPA
  - HTML
  
+ 
 ##### Related Lecture
+ 
  [Online Lecture](https://easyupclass.e-itwill.com/course/course_view.jsp?id=27&rtype=0&ch=course)
  [Original Github Link](https://github.com/codingspecialist/Eazyup-Photogram) 
