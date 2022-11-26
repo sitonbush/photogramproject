@@ -26,5 +26,5 @@ I made a simple Instagram-Wannabe Program.
  
 ##### Related Lecture
  
- [Online Lecture](https://easyupclass.e-itwill.com/course/course_view.jsp?id=27&rtype=0&ch=course)  
- [Original Github Link](https://github.com/codingspecialist/Eazyup-Photogram) 
+  - [Online Lecture](https://easyupclass.e-itwill.com/course/course_view.jsp?id=27&rtype=0&ch=course)  
+  - [Original Github Link](https://github.com/codingspecialist/Eazyup-Photogram) 
