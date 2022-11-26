@@ -1,7 +1,8 @@
 # photogramproject
-This is My first Back-end project based on the online Lecture :Smile:
-I made a simple Instagram-Wannabe Program.
-This Instagram-Wannabe program includes functions below:
+This is My first Back-end project based on the online Lecture!  :smile:  
+I made a simple Instagram-Wannabe Program.#
+
+  This Instagram-Wannabe program includes functions below: #
  - Sign-up
  - login
  - Subscribe/Unsusbribe
