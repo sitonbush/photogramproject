@@ -13,6 +13,7 @@ import java.time.LocalDateTime;
 @AllArgsConstructor //모든 생성자를 자동으로 만들어주는 어노테이션
 @NoArgsConstructor //빈 생성자를 자동으로 만들어주는 어노테이션
 @Data   //Getter,Setter,toString을 만들어주는 어노테이션
+@Entity
 @Table(
         uniqueConstraints =  {
                 @UniqueConstraint(
@@ -29,8 +30,6 @@ public class Subscribe {
     @Id // Primary Key를 지정해주는 어노테이션
     private Integer id;
 
-    @Column(unique = true, length = 20, nullable = false)
-    private String username;
 
     @JoinColumn(name="fromUserId")
     @ManyToOne
